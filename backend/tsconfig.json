@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "ES6",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+
+    /* Jest Type Definitions */
+    "types": ["jest"] /* Include Jest's type definitions */
+  },
+  "include": [
+    "src/**/*.ts",    /* Include source files */
+    "tests/**/*.ts"   /* Include test files */
+  ],
+  "exclude": [
+    "node_modules"    /* Exclude node_modules */
+  ]
+}
